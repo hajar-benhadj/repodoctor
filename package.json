@@ -1,0 +1,32 @@
+{
+  "name": "repodoctor",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AI GitHub repository health analyzer — explainable scores, secret & CVE detection, architecture graph",
+  "engines": {
+    "node": ">=18.18"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "analyze": "tsx scripts/analyze-cli.ts",
+    "selftest": "tsx scripts/selftest.ts"
+  },
+  "dependencies": {
+    "next": "^15.4.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tar": "^7.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.0"
+  }
+}
