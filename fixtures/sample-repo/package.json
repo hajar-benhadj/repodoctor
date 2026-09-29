@@ -1,0 +1,11 @@
+{
+  "name": "sample-repo",
+  "version": "1.0.0",
+  "description": "Deliberately unhealthy fixture used by RepoDoctor's selftest",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
