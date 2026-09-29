@@ -1,0 +1,251 @@
+[
+  {
+    "id": "cli-1790650899406-hpnt33",
+    "repoUrl": "https://github.com/tj/commander.js",
+    "owner": "tj",
+    "repo": "commander.js",
+    "status": "done",
+    "stage": "done",
+    "progress": 100,
+    "message": "Analyzed via CLI.",
+    "createdAt": "2026-09-29T03:01:45.025Z",
+    "finishedAt": "2026-09-29T03:01:45.025Z",
+    "resultId": "cli-1790650899406-hpnt33",
+    "summary": {
+      "overall": 89,
+      "grade": "A"
+    }
+  },
+  {
+    "id": "cli-1790650906754-qze9vn",
+    "repoUrl": "https://github.com/pallets/flask",
+    "owner": "pallets",
+    "repo": "flask",
+    "status": "done",
+    "stage": "done",
+    "progress": 100,
+    "message": "Analyzed via CLI.",
+    "createdAt": "2026-09-29T03:01:51.493Z",
+    "finishedAt": "2026-09-29T03:01:51.493Z",
+    "resultId": "cli-1790650906754-qze9vn",
+    "summary": {
+      "overall": 86,
+      "grade": "A"
+    }
+  },
+  {
+    "id": "cli-1790650913130-um2879",
+    "repoUrl": "https://github.com/expressjs/express",
+    "owner": "expressjs",
+    "repo": "express",
+    "status": "done",
+    "stage": "done",
+    "progress": 100,
+    "message": "Analyzed via CLI.",
+    "createdAt": "2026-09-29T03:01:57.905Z",
+    "finishedAt": "2026-09-29T03:01:57.905Z",
+    "resultId": "cli-1790650913130-um2879",
+    "summary": {
+      "overall": 86,
+      "grade": "A"
+    }
+  },
+  {
+    "id": "7718d9ce-c7b9-4e42-b402-3ce92d2a7b6e",
+    "repoUrl": "https://github.com/honojs/hono",
+    "owner": "honojs",
+    "repo": "hono",
+    "status": "error",
+    "stage": "fetch",
+    "progress": 15,
+    "message": "Failed.",
+    "createdAt": "2026-09-29T03:18:29.851Z",
+    "error": "Analysis failed unexpectedly: Transform is not a constructor",
+    "finishedAt": "2026-09-29T03:18:32.462Z"
+  },
+  {
+    "id": "25ecdc11-8763-46e7-98ac-bc2145403659",
+    "repoUrl": "https://github.com/honojs/hono",
+    "owner": "honojs",
+    "repo": "hono",
+    "status": "error",
+    "stage": "fetch",
+    "progress": 15,
+    "message": "Failed.",
+    "createdAt": "2026-09-29T03:24:03.127Z",
+    "error": "Analysis failed unexpectedly: Transform is not a constructor",
+    "finishedAt": "2026-09-29T03:24:05.791Z"
+  },
+  {
+    "id": "235aeb59-e801-412d-9f84-b8551a062a80",
+    "repoUrl": "https://github.com/honojs/hono",
+    "owner": "honojs",
+    "repo": "hono",
+    "status": "done",
+    "stage": "done",
+    "progress": 100,
+    "message": "Diagnosis complete.",
+    "createdAt": "2026-09-29T03:34:23.653Z",
+    "resultId": "235aeb59-e801-412d-9f84-b8551a062a80",
+    "summary": {
+      "overall": 73,
+      "grade": "C"
+    },
+    "finishedAt": "2026-09-29T03:34:49.240Z"
+  },
+  {
+    "id": "333bf9c0-1144-4e44-8ea7-a2684543338d",
+    "repoUrl": "https://github.com/hajar-benhadj/AI-API-TEST-Generator",
+    "owner": "hajar-benhadj",
+    "repo": "AI-API-TEST-Generator",
+    "status": "done",
+    "stage": "done",
+    "progress": 100,
+    "message": "Diagnosis complete.",
+    "createdAt": "2026-09-29T03:54:15.620Z",
+    "resultId": "333bf9c0-1144-4e44-8ea7-a2684543338d",
+    "summary": {
+      "overall": 95,
+      "grade": "A+"
+    },
+    "finishedAt": "2026-09-29T03:54:19.118Z"
+  },
+  {
+    "id": "4592fcd5-51ba-4df8-b8f6-1388b2626833",
+    "repoUrl": "https://github.com/tj/commander.js",
+    "owner": "tj",
+    "repo": "commander.js",
+    "status": "done",
+    "stage": "done",
+    "progress": 100,
+    "message": "Served from cache (analyzed within the last 24h).",
+    "createdAt": "2026-09-29T04:16:18.564Z",
+    "finishedAt": "2026-09-29T04:16:18.564Z",
+    "cached": true,
+    "resultId": "cli-1790650899406-hpnt33",
+    "summary": {
+      "overall": 89,
+      "grade": "A"
+    }
+  },
+  {
+    "id": "3afa3ba0-8e78-405f-9869-08d96433596e",
+    "repoUrl": "https://github.com/pallets/flask",
+    "owner": "pallets",
+    "repo": "flask",
+    "status": "done",
+    "stage": "done",
+    "progress": 100,
+    "message": "Served from cache (analyzed within the last 24h).",
+    "createdAt": "2026-09-29T04:16:18.578Z",
+    "finishedAt": "2026-09-29T04:16:18.578Z",
+    "cached": true,
+    "resultId": "cli-1790650906754-qze9vn",
+    "summary": {
+      "overall": 86,
+      "grade": "A"
+    }
+  },
+  {
+    "id": "4b32a25b-ac27-42b6-a13a-854527b77b88",
+    "repoUrl": "https://github.com/hajar-benhadj/AI-API-TEST-Generator",
+    "owner": "hajar-benhadj",
+    "repo": "AI-API-TEST-Generator",
+    "status": "done",
+    "stage": "done",
+    "progress": 100,
+    "message": "Served from cache (analyzed within the last 24h).",
+    "createdAt": "2026-09-29T04:34:51.011Z",
+    "finishedAt": "2026-09-29T04:34:51.011Z",
+    "cached": true,
+    "resultId": "333bf9c0-1144-4e44-8ea7-a2684543338d",
+    "summary": {
+      "overall": 95,
+      "grade": "A+"
+    }
+  },
+  {
+    "id": "89e48fb5-4e9e-44e3-ae1b-9bfdf81ca3bb",
+    "repoUrl": "https://github.com/hajar-benhadj/AI-API-TEST-Generator",
+    "owner": "hajar-benhadj",
+    "repo": "AI-API-TEST-Generator",
+    "status": "done",
+    "stage": "done",
+    "progress": 100,
+    "message": "Served from cache (analyzed within the last 24h).",
+    "createdAt": "2026-09-29T04:36:00.247Z",
+    "finishedAt": "2026-09-29T04:36:00.247Z",
+    "cached": true,
+    "resultId": "333bf9c0-1144-4e44-8ea7-a2684543338d",
+    "summary": {
+      "overall": 95,
+      "grade": "A+"
+    }
+  },
+  {
+    "id": "2c977f9f-810b-49d6-9de4-545ddba30ea8",
+    "repoUrl": "https://github.com/hajar-benhadj/Fall_Detection_System",
+    "owner": "hajar-benhadj",
+    "repo": "Fall_Detection_System",
+    "status": "error",
+    "stage": "fetch",
+    "progress": 15,
+    "message": "Failed.",
+    "createdAt": "2026-09-29T04:36:00.260Z",
+    "error": "Could not download the repository archive (timeout or network error).",
+    "finishedAt": "2026-09-29T04:36:08.022Z"
+  },
+  {
+    "id": "97917d6f-3b9c-4c73-8bed-f31f43501adb",
+    "repoUrl": "https://github.com/tj/commander.js",
+    "owner": "tj",
+    "repo": "commander.js",
+    "status": "done",
+    "stage": "done",
+    "progress": 100,
+    "message": "Served from cache (analyzed within the last 24h).",
+    "createdAt": "2026-09-29T04:47:39.676Z",
+    "finishedAt": "2026-09-29T04:47:39.676Z",
+    "cached": true,
+    "resultId": "cli-1790650899406-hpnt33",
+    "summary": {
+      "overall": 89,
+      "grade": "A"
+    }
+  },
+  {
+    "id": "f5728e95-45da-4427-bdb9-04d9bb812ce0",
+    "repoUrl": "https://github.com/expressjs/express",
+    "owner": "expressjs",
+    "repo": "express",
+    "status": "done",
+    "stage": "done",
+    "progress": 100,
+    "message": "Served from cache (analyzed within the last 24h).",
+    "createdAt": "2026-09-29T04:47:55.010Z",
+    "finishedAt": "2026-09-29T04:47:55.010Z",
+    "cached": true,
+    "resultId": "cli-1790650913130-um2879",
+    "summary": {
+      "overall": 86,
+      "grade": "A"
+    }
+  },
+  {
+    "id": "433c05c7-ac1e-4f48-a441-a50940e75649",
+    "repoUrl": "https://github.com/fastify/fastify",
+    "owner": "fastify",
+    "repo": "fastify",
+    "status": "done",
+    "stage": "done",
+    "progress": 100,
+    "message": "Diagnosis complete.",
+    "createdAt": "2026-09-29T04:47:55.028Z",
+    "resultId": "433c05c7-ac1e-4f48-a441-a50940e75649",
+    "summary": {
+      "overall": 81,
+      "grade": "B"
+    },
+    "finishedAt": "2026-09-29T04:48:15.253Z"
+  }
+]
