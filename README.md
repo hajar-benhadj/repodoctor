@@ -15,6 +15,8 @@ an architecture graph with cycle detection, and a prioritized prescription.**
 
 [Features](#-what-it-does) · [How scoring works](#-how-scoring-works-transparent-by-design) · [Quick start](#-quick-start) · [API](#-api) · [Roadmap](#-roadmap)
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/hajar-benhadj/repodoctor)
+
 ![RepoDoctor landing page](docs/screenshots/landing.png)
 
 </div>
@@ -123,6 +125,22 @@ Optional environment (`.env.local`):
 |---|---|
 | `GITHUB_TOKEN` | Raises the GitHub API limit from 60 to 5 000 req/hour |
 | `OPENAI_API_KEY` · `ANTHROPIC_API_KEY` · `GEMINI_API_KEY` | Enables the AI-written prescription (optional — everything works without it) |
+
+## ☁️ Deploy
+
+RepoDoctor needs a **long-running Node server** (in-process job queue + SSE + disk cache),
+so serverless platforms (Vercel/Netlify functions, GitHub Pages) won't run it as-is.
+
+The repo ships a [Render Blueprint](render.yaml) — one click:
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/hajar-benhadj/repodoctor)
+
+Notes on the free plan:
+
+- The service sleeps after ~15 min idle; the first visit wakes it (~50 s).
+- `data/` is ephemeral — the 24 h analysis cache resets on every deploy/restart.
+- Add a `GITHUB_TOKEN` environment variable in the Render dashboard (no scopes needed
+  for public repos) if analyses start failing with GitHub rate-limit errors.
 
 ## 🖥️ Usage
 

@@ -1,0 +1,15 @@
+# Render Blueprint — https://render.com/docs/blueprint-spec
+services:
+  - type: web
+    name: repodoctor
+    runtime: node
+    plan: free
+    healthCheckPath: /
+    buildCommand: npm ci --include=dev && npm run build
+    startCommand: npm run start
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      # Optional: add a GITHUB_TOKEN variable in the Render dashboard (no
+      # scopes needed for public repos) to raise the GitHub API rate limit
+      # from 60 to 5,000 requests/hour if analyses start failing.
